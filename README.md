@@ -1,4 +1,4 @@
-#  ShopnoKarigor
+#  Personal Portfolio of Shopno Karigor
 
 > Personal Portfolio version 1.0.
 
