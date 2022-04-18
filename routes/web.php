@@ -52,6 +52,6 @@ Route::middleware(['auth:sanctum', config('jetstream.auth_session'),'verified'
 });
 
 Route::get('/Contact_view',[ContactController::class, 'view'])->name('contact.view');
-Route::get('/Contact_destroy',[ContactController::class, 'destroy'])->name('contact.delete');
+Route::delete('/Contact_destroy',[ContactController::class, 'destroy'])->name('contact.delete');
 
 

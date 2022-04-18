@@ -44,10 +44,19 @@ class ContactController extends Controller
         return view('admin.contact', compact('data'));
     }
 
-    public function destroy(){
-        // $data=DB::table('contact')->get();
-        // dd($data->all());
-        // return view('admin.contact', compact('data'));
-        return 'Deleting';
+    public function destroy(Request $request){
+        // $data=array(
+        //     'deleted_at' => date("Y-m-d")." ".date("h:i:s")
+        // );
+        $result = DB::table('contact')->where('id', '=', $request->id)->delete();
+        if ($result){
+            return response()->json([
+                'success' => 'Query deleted successfully!'
+            ]);
+        }else{
+            return response()->json([
+                'error' => 'Something went wrong!'
+            ]);
+        }
     }
 }

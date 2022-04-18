@@ -177,6 +177,9 @@ a:hover{
   font-weight: 400;
   line-height: 45px;
 }
+.menue-text ul a:active{
+  text-decoration:underline;
+}
 .social{
   padding-bottom: 15px;
 }

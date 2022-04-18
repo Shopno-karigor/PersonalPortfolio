@@ -2,7 +2,7 @@
     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 menue-fixed-text">
         <ul>
         <a href="{{ route('/')}}"><li>Home</li></a>
-        <a href="{{ route('portfolio')}}"><li>Portfolio and skills</li></a>
+        <a href="{{ route('portfolio')}}" :active="request()->routeIs('portfolio')"><li>Portfolio and skills</li></a>
         <a href="{{ route('experience')}}"><li>Work experiences</li></a>
         <a href="{{ route('certification')}}"><li>Certifications</li></a>
         <a href="{{ route('achievement')}}"><li>Achivements</li></a>
