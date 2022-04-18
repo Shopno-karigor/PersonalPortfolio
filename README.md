@@ -6,6 +6,10 @@
 
 ## Tech
 - Laravel
+- HTML
+- CSS
+- jQuery
+- Bootstrap
 
 
 ## License
