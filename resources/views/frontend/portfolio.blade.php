@@ -13,8 +13,8 @@
                 <h5 class="text-center protfolio-sub-title">I solve problems. Always try to keep things simple.</h5>
                 <p class="portfolio-text">
                     + Learning and working with <span class="php-badge badge-custom badge">PHP</span>  for the last 5 years. Started <span class="laravel-badge badge-custom badge">Laravel</span> recently.<br>
-                    + Also a front-end guy. I can write <span class="html-badge badge-custom badge">HTML and CSS</span> from scratch to production. Love <span class="botstrap-badge badge-custom badge">Bootstrap</span>.  <br> 
-                    + An Amature javaScript developer. Sometimes, things get complex when I approach this script. <br>
+                    + Also a front-end guy. I can write <span class="html-badge badge-custom badge">HTML and CSS</span> from scratch to finishing. Love <span class="botstrap-badge badge-custom badge">Bootstrap</span>.  <br> 
+                    + An amature javaScript developer. Sometimes, things get complex when I approach this script. <br>
                </p>
                <p class="portfolio-text">
                    + <a href="http://childcarebus.sg/" target="_blank" class="text-underline">ChildCare Bus Singapore</a> is one of my <span class="fullstack-badge badge-custom badge">Full-stack</span> projects. Did it as a one-man army. <br>

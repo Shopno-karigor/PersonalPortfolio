@@ -34,7 +34,7 @@
                       </ul>
                   </div>
                   <div class="training-container col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                      <h3>Professional training</h3>
+                      <h3>Professional trainings</h3>
                       <ul>
                           <li>CSS Compliance Training <b>(Microsoft)</b></li>
                           <li>Delivery Partner Advocate - Protecting Microsoft Customers <b>(Microsoft)</b></li>

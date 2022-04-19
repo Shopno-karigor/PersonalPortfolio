@@ -50,6 +50,7 @@
                         <li><b>Quiz Master</b>, Rave (Microsoft)</li>
                         <li><b>Case Expert</b>, Rave (Microsoft)</li>
                         <li><b>Customer Service Week 2021</b>, Microsoft</li>
+                        <li><b>Gold Badge</b>, Rave (Microsoft)</li>
                         <li><b>Cadet Under Officer</b>, Bangladesh National Cadet Corps</li>
                     </ul>
                 </div>
