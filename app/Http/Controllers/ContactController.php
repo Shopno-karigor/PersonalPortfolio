@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use DB;
+use Illuminate\Support\Facades\Mail;
+use Illuminate\Mail\Mailable;
 
 class ContactController extends Controller
 {
@@ -13,6 +15,7 @@ class ContactController extends Controller
 
     public function store(Request $request){
         //dd($request->all());
+        $recipient="mail@ratul.info";
         $rules = [
             'name' => 'required|max:255',
             'email' => 'required|max:80|email:rfc,dns',
@@ -33,6 +36,7 @@ class ContactController extends Controller
         );
         $result=DB::table('contact')->insert($data);
         if ($result){
+            Mail::to($recipient)->send(new \App\Mail\ContactQuery($data));
             return redirect()->back()->with('success', 'Thank you. I will get back to you soon.');
         }else{
             return redirect()->back()->with('error', 'Oops! Something went wrong');
