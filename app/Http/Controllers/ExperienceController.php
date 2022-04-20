@@ -13,4 +13,7 @@ class ExperienceController extends Controller
     public function Error404(){
         return abort(404);
     }
+    public function exp_microsoft(){
+        return view('frontend.experience-view');
+    }
 }

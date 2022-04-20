@@ -15,6 +15,7 @@
   <link rel="stylesheet" href="{{ asset('css/bootstrap-theme.css') }}">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" href="{{ asset('css/font-awesome.css') }}">
+  <link rel="stylesheet" href="{{ asset('css/owl.carousel.min.css') }}">
   <link rel="stylesheet" href="{{ asset('css/animate.css') }}">
   <link rel="stylesheet" href="{{ asset('css/optimus.css') }}">
   <link rel="stylesheet" href="{{ asset('css/style.css') }}">

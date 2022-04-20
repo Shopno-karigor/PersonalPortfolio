@@ -29,6 +29,7 @@ Route::get('/', function () {
 Route::get('/Home',[IndexController::class, 'index'])->name('/');
 Route::get('/Portfolio',[PortfolioController::class, 'index'])->name('portfolio');
 Route::get('/Work_Experiences',[ExperienceController::class, 'index'])->name('experience');
+Route::get('/My_journey_with_Microsoft',[ExperienceController::class, 'exp_microsoft'])->name('microsoft');
 Route::get('/Oops!',[ExperienceController::class, 'Error404'])->name('workingonit');
 Route::get('/Certifications',[CertificationController::class, 'index'])->name('certification');
 Route::get('/Achievements',[AchievementController::class, 'index'])->name('achievement');

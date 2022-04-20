@@ -7,5 +7,6 @@
     @yield('certification')
     @yield('contact')
     @yield('workingonit')
+    @yield('experience-view')
  </html>
 

@@ -12,17 +12,21 @@
                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 animated fadeIn experience-item">
                   <div class="experience-item-img">
                     <div class="experience-item-img-content">
-                      <img src="{{ asset('images/company/ms.png') }}" alt="" class="img-responsive center-block">
+                      <a href="{{ route('microsoft')}}">
+                        <img src="{{ asset('images/company/ms.png') }}" alt="" class="img-responsive center-block">
+                      </a>
                     </div>
                   </div>
-                  <a href="{{ route('workingonit')}}"><p class="experience-company">Technical Support Engineer</p></a>
+                  <a href="{{ route('microsoft')}}"><p class="experience-company">Technical Support Engineer</p></a>
                   <h5 class="text-center experience-institute">1 year 1 month (January 2021 to February 2022)</h5>
                   <p class="experience-title">Shanghai Wicresoft Co., Ltd.</p>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 animated fadeIn experience-item">
                   <div class="experience-item-img">
                     <div class="experience-item-img-content">
-                      <img src="{{ asset('images/company/dtlab.png') }}" alt="" class="img-responsive center-block">
+                      <a href="{{ route('workingonit')}}">
+                        <img src="{{ asset('images/company/dtlab.png') }}" alt="" class="img-responsive center-block">
+                      </a>
                     </div>                    
                   </div>
                   <a href="{{ route('workingonit')}}"><p class="experience-company">Research and Teaching Assistant</p></a>
@@ -32,7 +36,9 @@
                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 animated fadeIn experience-item-1">
                   <div class="experience-item-img">
                     <div class="experience-item-img-content">
-                      <img src="{{ asset('images/company/Eunited-logo.png') }}" alt="" class="img-responsive center-block">
+                      <a href="{{ route('workingonit')}}">
+                        <img src="{{ asset('images/company/Eunited-logo.png') }}" alt="" class="img-responsive center-block">
+                      </a>
                     </div>                    
                   </div>
                   <a href="{{ route('workingonit')}}"><p class="experience-company">Computer System Analyst</p></a>
@@ -42,7 +48,9 @@
                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 animated fadeIn experience-item-1">
                   <div class="experience-item-img">
                     <div class="experience-item-img-content">
-                      <img src="{{ asset('images/company/DS logo.png') }}" alt="" class="img-responsive center-block">
+                      <a href="{{ route('workingonit')}}">
+                        <img src="{{ asset('images/company/DS logo.png') }}" alt="" class="img-responsive center-block">
+                      </a>
                     </div>                    
                   </div>
                   <a href="{{ route('workingonit')}}"><p class="experience-company">IoT Engineer</p></a>

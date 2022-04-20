@@ -440,7 +440,7 @@ a:hover{
 }
 .experience-details-title{
   padding-bottom: 10px;
-  font-family: 'Source Code Pro', monospace;
+  font-family: 'Libre Baskerville', serif;
 }
 .experience-left-sidebar{
   padding-top: 30px;
@@ -451,7 +451,8 @@ a:hover{
 .experience-view-text{
   padding: 10px 0px;
   float: left;
-  font-family: 'Source Code Pro', monospace;
+  font-family: 'Libre Baskerville', serif;
+  line-height: 2;
 }
 /*STYLE :::::::::::::::::::: EXPERIENCE ::::::::::::::::::*/
 
