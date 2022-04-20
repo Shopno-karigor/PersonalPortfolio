@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/ratulinf/public_html/
+    - export DEPLOYPATH=/home/ratulinf/public_html/portfolio
     - /bin/cp -r * $DEPLOYPATH
